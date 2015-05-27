@@ -22,7 +22,6 @@ class Solution {
         	if (currentMaxLen > retValue) {
         		retValue = currentMaxLen;
         	}
-        		
         }
         return retValue;
     }
