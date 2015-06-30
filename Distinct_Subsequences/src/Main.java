@@ -8,7 +8,6 @@ class Solution {
         dp[0] = 1;
         int i, j;
         for (i = 0; i < s.length(); i++) {
-            //System.out.println(Arrays.toString(dp));
             for (j = t.length() - 1; j >= 0; j--) {
                 if (t.charAt(j) == s.charAt(i)) {
                     dp[j + 1] += dp[j];
