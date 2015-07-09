@@ -1,6 +1,5 @@
 
-class Solution {
-    
+class Solution {  
     public int minCut(String s) {
         if (s.length() < 2)
             return 0;
