@@ -1,6 +1,6 @@
 <h3> Solutions to Leetcode </h3>
 
-<a href="www.leetcode.com"> Leetcode </a> is a platform for preparing technical coding interviews. It focuses on fundamental data structures and basic algorithms. Many questions are taken from real-world interview questions, I believe. If done right, solutions shouldn't exceed 100 lines of code at all. <p>
+<a href="http://www.leetcode.com"> Leetcode </a> is a platform for preparing technical coding interviews. It focuses on fundamental data structures and basic algorithms. Many questions are taken from real-world interview questions, I believe. If done right, solutions shouldn't exceed 100 lines of code at all. <p>
 
 Even though I don't quite agree with Leetcode's way of technical interview, I have to admit that I love Leetcode. It comes with a comprehensive online judge, which covers many test cases, time complexity and even space complexity. Most importantly, I can focus on the problem itself without handling input and output. I should have used Leetcode earlier. When I interviewed with Youtube team onsite, I was asked to write a Sudoku solver. Obviously I struggled. After Leetcode, I can write a  clean and efficient solver. <p>
 
