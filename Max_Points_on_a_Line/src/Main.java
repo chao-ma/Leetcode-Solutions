@@ -43,13 +43,6 @@ class Solution {
                retValue = retValue < s.size() ? s.size() : retValue;
            }
        }
-       for (Float s: slopeToInterceptMap.keySet()) {
-           System.out.println("Slope");System.out.println(s);
-           for (Float x: slopeToInterceptMap.get(s).keySet()) {
-               System.out.println(x);
-               System.out.println(slopeToInterceptMap.get(s).get(x));
-           }
-       }
        return retValue;
    }
 }
