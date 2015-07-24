@@ -10,8 +10,14 @@ class Solution {
     public String largestNumber(int[] nums) {
         String retValue = "";
         List<String> input = new ArrayList<>();
-        for (int i: nums)
+        boolean allZero = true;
+        for (int i: nums) {
             input.add(String.valueOf(i));
+            if (i > 0)
+                allZero = false;
+        }
+        if (allZero)
+            return "0";
         Collections.sort(input, new DigitComparator());
         for (String s: input)
             retValue += s;
