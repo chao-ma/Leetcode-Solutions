@@ -6,7 +6,7 @@ Even though I don't quite agree with Leetcode's way of technical interview, I ha
 
 I did Leetcode in 2013 for the first time. And I decided to use a language I never knew, Java. It worked pretty well. Later I started to write Android app at work without any language barrier. And this is my second time doing Leetcode. <p>
 
-All the solutions are original except some classic ones I learnt from CLRS, such as KMP string matching, merge sort, etc. There are a few implementations I am quite proud of: <br>
+All the solutions are original except some classic ones I learnt from CLRS, such as KMP string matching, merge sort, etc. There are a few implementations I am quite <strong> proud </strong> of: <br>
  - Sudoku solver (the way I backtrack solutions) <br>
  - LRU cache (the way to update circular double linked list)<br>
  - My own implementation of KMP algorithm<br>
