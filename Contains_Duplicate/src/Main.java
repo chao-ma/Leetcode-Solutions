@@ -2,21 +2,23 @@ import java.util.*;
 
 class Solution {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
-        TreeSet<Integer> bst = new TreeSet<>();
-        LinkedList<Integer> queue = new LinkedList<>();
+        TreeSet<Long> bst = new TreeSet<>();
+        LinkedList<Long> queue = new LinkedList<>();
+        long gap = t;
         for (int i: nums) {
-            Integer ceiling = bst.ceiling(i);
-            if (ceiling != null && ceiling - i <= t) {
+            long val = i;
+            Long ceiling = bst.ceiling(val);
+            if (ceiling != null && ceiling - val <= gap) {
                 return true;
             }
-            Integer floor = bst.floor(i);
-            if (floor != null && i - floor <= t) {
+            Long floor = bst.floor(val);
+            if (floor != null && val - floor <= gap) {
                 return true;
             }
-            bst.add(i);
-            queue.add(i);
+            bst.add(val);
+            queue.add(val);
             if (queue.size() > k) {
-                Integer head = queue.remove(0);
+                Long head = queue.remove(0);
                 bst.remove(head);
             }
         }
